@@ -12,7 +12,7 @@ Dieses Projekt befasst sich mit der Eliminierung von Bildrauschen in Roboter-Sze
 Das Modell basiert auf einem **Convolutional Autoencoder**, der in PyTorch implementiert wurde. Der Encoder reduziert die Dimensionalität zur Feature-Extraktion, während der Decoder über Transposed Convolutions das Bild wiederherstellt.
 
 <p align="center">
-  <img src="Images/autoencoder_architecture.png" width="500" alt="Autoencoder Architektur">
+  <img src="Images/autoencoder_architecture.PNG" width="500" alt="Autoencoder Architektur">
 </p>
 
 - **Framework:** PyTorch.
@@ -23,8 +23,8 @@ Das Modell basiert auf einem **Convolutional Autoencoder**, der in PyTorch imple
 Als Datensatz wurde **RobotMNIST** verwendet. Die Originalbilder wurden auf 79x79 Pixel skaliert und mit künstlichem Rauschen versehen, um das Modell zu trainieren.
 
 <p align="center">
-  <img src="Images/data_example.png" width="250" alt="Originalbild">
-  <img src="Images/noise_example.png" width="250" alt="Verrauschtes Bild">
+  <img src="Images/data_example.PNG" width="250" alt="Originalbild">
+  <img src="Images/noise_example.PNG" width="250" alt="Verrauschtes Bild">
   <br>
   <em>Links: Originalbild (Target) | Rechts: Verrauschtes Bild (Input).</em>
 </p>
@@ -33,8 +33,8 @@ Als Datensatz wurde **RobotMNIST** verwendet. Die Originalbilder wurden auf 79x7
 Die Analyse der Lernkurven zeigt eine stabile Konvergenz. Mit zunehmender Netzwerktiefe konnte der Mean Squared Error (MSE) signifikant gesenkt werden.
 
 <p align="center">
-  <img src="Images/training_testing_loss.png" width="400" alt="Loss Kurve">
-  <img src="Images/training_testing_accuracy.png" width="400" alt="Accuracy Kurve">
+  <img src="Images/training_testing_loss.PNG" width="400" alt="Loss Kurve">
+  <img src="Images/training_testing_accuracy.PNG" width="400" alt="Accuracy Kurve">
 </p>
 
 ## Projektstruktur

@@ -3,7 +3,7 @@
 Dieses Projekt befasst sich mit der Eliminierung von Bildrauschen in Roboter-Szenen (RobotMNIST) unter Verwendung von Deep Learning. Ziel ist es, verrauschte Eingabebilder durch ein Encoder-Decoder-Netzwerk zu rekonstruieren.
 
 <p align="center">
-  <img src="Images/denoising_results_comparison.png" width="700" alt="Denoising Ergebnisse Vergleich">
+  <img src="Images/denoising_results_comparison.PNG" width="700" alt="Denoising Ergebnisse Vergleich">
   <br>
   <em>Vergleich der Rekonstruktionsqualität bei 2, 3 und 4 Convolutional Layers.</em>
 </p>
